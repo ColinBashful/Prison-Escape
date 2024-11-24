@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/name_tag"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "prisonbreak:item/keycard_lvl_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "prisonbreak:item/keycard_lvl_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "prisonbreak:item/keycard_lvl_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "prisonbreak:item/keycard_lvl_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "prisonbreak:item/keycard_lvl_5"
+    }
+  ]
+}
